@@ -1,0 +1,11 @@
+[package]
+name = "mpitk"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "mpitk-ls"
+path = "src/main.rs"
+
+[dependencies]
+mpi = "0.8"
